@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/phonedirectory_api/static/css/main.ea7f705e.css",
+    "main.js": "/phonedirectory_api/static/js/main.ac22b5e0.js",
+    "index.html": "/phonedirectory_api/index.html",
+    "main.ea7f705e.css.map": "/phonedirectory_api/static/css/main.ea7f705e.css.map",
+    "main.ac22b5e0.js.map": "/phonedirectory_api/static/js/main.ac22b5e0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ea7f705e.css",
+    "static/js/main.ac22b5e0.js"
+  ]
+}
