@@ -1,0 +1,32 @@
+.notification {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  min-width: 250px;
+  padding: 16px 20px;
+  border-radius: 8px;
+  color: white;
+  font-weight: 500;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transform: translateY(-100%);
+  opacity: 0;
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.27, 1.55);  
+  z-index: 1000;
+
+  &.active {
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+  &.error {
+    background-color: #ff4d4f;
+  }
+
+  &.success {
+    background-color: #52c41a;
+  }
+  
+  &.info {
+    background-color: #1890ff;
+  }
+}

@@ -1,0 +1,38 @@
+@use 'sass:math';
+
+@import "../../App.module.scss";
+
+.filterContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+
+  p {
+    color: $secondary-color;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin: 0;
+    text-shadow: 0 0 5px rgba($secondary-color, 0.5);
+  }
+
+  input {
+    padding: 0.75rem;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 0.3rem;
+    background: $card-bg;
+    color: #ffffff;
+    font-size: 1rem;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+
+    &::placeholder {
+      color: rgba(255, 255, 255, 0.6);
+    }
+
+    &:focus {
+      outline: none;
+      border-color: $primary-color;
+      box-shadow: 0 0 8px rgba($primary-color, 0.5);
+    }
+  }
+}
